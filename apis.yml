@@ -1,0 +1,131 @@
+aid: shield-ai
+name: Shield AI
+description: |
+  Shield AI builds autonomous defense systems anchored by Hivemind, an
+  AI-powered autonomy stack that pilots aircraft and robotic platforms without
+  GPS or communications. Hardware products include the V-BAT vertical-takeoff
+  ISR aircraft, the Nova quadcopter, and the announced X-BAT AI-piloted VTOL
+  fighter. Hivemind itself is delivered as a layered platform: EdgeOS (real-time
+  C++ autonomy middleware), Pilot (autonomy behavior catalog), Forge (autonomy
+  factory for build, sim, and test), and Commander (C2 and fleet integration).
+  In 2025 Shield AI introduced Hivemind Enterprise, a partner-facing SDK for
+  building, evaluating, testing, and deploying mission autonomy on customer
+  platforms. There is no public, self-service API; access to Hivemind SDKs and
+  developer tooling is gated through partnership and is subject to U.S. export
+  controls (ITAR/EAR).
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Defense
+  - Autonomy
+  - Hivemind
+  - EdgeOS
+  - Robotics
+  - Unmanned Systems
+  - Mission Software
+  - Edge AI
+  - V-BAT
+  - ITAR
+  - Swarming
+url: https://raw.githubusercontent.com/api-evangelist/shield-ai/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis:
+  - aid: shield-ai:hivemind-enterprise
+    name: Hivemind Enterprise SDK
+    description: |
+      Hivemind Enterprise is Shield AI's partner-facing autonomy SDK for
+      developing, evaluating, testing, and deploying mission autonomy onto
+      heterogeneous robotic platforms. It bundles EdgeOS runtime middleware, the
+      Pilot behavior catalog, the Forge build and simulation environment, and
+      Commander C2 integration libraries. Access is partner-gated; there is no
+      public API endpoint or self-service developer portal at this time.
+    humanURL: https://shield.ai/enterprise/
+    tags:
+      - Hivemind
+      - EdgeOS
+      - Pilot
+      - Forge
+      - Commander
+      - Autonomy SDK
+      - Edge AI
+      - Mission Autonomy
+    properties:
+      - type: ProductPage
+        url: https://shield.ai/enterprise/
+      - type: EdgeOSOverview
+        url: https://shield.ai/edge-os/
+      - type: HivemindOverview
+        url: https://shield.ai/hivemind/
+      - type: BlogEdgeOS
+        url: https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/
+      - type: BlogSDK
+        url: https://shield.ai/from-concept-to-combat-how-hivemind-sdk-powers-next-gen-autonomy/
+      - type: AWSCaseStudy
+        url: https://aws.amazon.com/blogs/publicsector/shield-ai-and-aws-collaborate-to-deliver-mission-autonomy-at-fleet-scale/
+      - type: FoxgloveCaseStudy
+        url: https://foxglove.dev/customer-stories/shield-ai
+    features:
+      - name: EdgeOS Middleware
+        description: C++ real-time autonomy middleware with static JSON configuration, deterministic startup, and built-in diagnostics, recording, and replay.
+      - name: Pilot Behavior Catalog
+        description: Reusable autonomy behaviors covering state estimation, mapping, motion planning, and mission execution.
+      - name: Forge Autonomy Factory
+        description: Build, simulate, and test autonomy stacks with high-fidelity simulation and analysis tooling.
+      - name: Commander C2 Integration
+        description: Libraries and patterns for integrating Hivemind-enabled platforms into customer C2 and fleet management systems.
+      - name: Multi-Agent Coordination
+        description: Communicator library for agent discovery, time sync, configurable QoS, and feedback on network conditions across distributed agents.
+      - name: Platform-Agnostic Autonomy
+        description: Reference architectures that let the same autonomy stack target multiple airframes and ground robots.
+      - name: Recording and Replay
+        description: Built-in telemetry capture for latency, backpressure, CPU utilization, and message flow analysis.
+    useCases:
+      - name: New Platform Onboarding
+        description: Port Hivemind Pilot onto a new airframe or ground robot using reference architectures and EdgeOS.
+      - name: GPS-Denied Operations
+        description: Operate autonomously in GPS-denied and communications-degraded environments.
+      - name: Read-and-React Swarming
+        description: Coordinate multiple agents for operational, real-time swarming missions.
+      - name: Simulation and Mission Rehearsal
+        description: Validate autonomy behaviors in Forge before flight test and fielded deployment.
+      - name: C2 Integration
+        description: Surface Hivemind-piloted assets inside existing command-and-control systems.
+    integrations:
+      - name: V-BAT
+      - name: Nova quadcopter
+      - name: X-BAT (announced)
+      - name: General Atomics MQ-20 Avenger
+      - name: Kratos MQM-178 Firejet
+      - name: AWS GovCloud
+      - name: Foxglove
+      - name: ViDAR
+      - name: Tracker / Tracker C-UAS
+    authentication:
+      - type: PartnerGated
+        description: Hivemind Enterprise SDK access is granted through Shield AI partnerships and is subject to U.S. export controls (ITAR/EAR).
+common:
+  - type: Website
+    url: https://shield.ai/
+  - type: Hivemind
+    url: https://shield.ai/hivemind/
+  - type: HivemindEnterprise
+    url: https://shield.ai/enterprise/
+  - type: EdgeOS
+    url: https://shield.ai/edge-os/
+  - type: Products
+    url: https://shield.ai/products/
+  - type: Careers
+    url: https://shield.ai/careers/
+  - type: Blog
+    url: https://shield.ai/blog/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/shield-ai/
+  - type: Twitter
+    url: https://x.com/shieldaitech
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
