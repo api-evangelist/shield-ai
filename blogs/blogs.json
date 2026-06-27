@@ -2,11 +2,11 @@
   "repo": "shield-ai",
   "feeds": [
     {
-      "source": "https://shield.ai/blog/",
-      "feed_url": "https://shield.ai/blog/feed/",
+      "source": "https://shield.ai/feed/",
+      "feed_url": "https://shield.ai/feed/",
       "title": "",
-      "saved": 0,
-      "method": "discovered"
+      "saved": 2,
+      "method": "feed"
     },
     {
       "source": "https://shield.ai/hivemind/",
@@ -30,6 +30,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 17,
+  "fetched": "2026-06-27T12:03:07Z"
 }
