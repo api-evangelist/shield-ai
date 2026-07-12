@@ -108,6 +108,10 @@ apis:
       - type: PartnerGated
         description: Hivemind Enterprise SDK access is granted through Shield AI partnerships and is subject to U.S. export controls (ITAR/EAR).
 common:
+  - type: VulnerabilityDisclosure
+    url: security/shield-ai-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/shield-ai-domain-security.yml
   - type: Website
     url: https://shield.ai/
   - type: Hivemind
