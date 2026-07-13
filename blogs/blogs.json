@@ -5,7 +5,28 @@
       "source": "https://shield.ai/feed/",
       "feed_url": "https://shield.ai/feed/",
       "title": "",
-      "saved": 2,
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://shield.ai/hivemind/feed/",
+      "feed_url": "https://shield.ai/hivemind/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/feed/",
+      "feed_url": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://shield.ai/careers/feed/",
+      "feed_url": "https://shield.ai/careers/feed/",
+      "title": "",
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -30,6 +51,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 17,
-  "fetched": "2026-06-27T12:03:07Z"
+  "post_count": 25,
+  "fetched": "2026-07-11T11:50:51Z"
 }
