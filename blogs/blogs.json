@@ -2,13 +2,32 @@
   "repo": "shield-ai",
   "feeds": [
     {
+      "source": "https://shield.ai/hivemind/",
+      "feed_url": "https://shield.ai/hivemind/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/",
+      "feed_url": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://shield.ai/careers/",
+      "feed_url": "https://shield.ai/careers/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://shield.ai/feed/",
       "feed_url": "https://shield.ai/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
+      "method": "feed"
     },
     {
       "source": "https://shield.ai/hivemind/feed/",
@@ -30,31 +49,10 @@
       "title": "",
       "saved": 0,
       "method": "feed"
-    },
-    {
-      "source": "https://shield.ai/hivemind/",
-      "feed_url": "https://shield.ai/hivemind/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
-    },
-    {
-      "source": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/",
-      "feed_url": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
-    },
-    {
-      "source": "https://shield.ai/careers/",
-      "feed_url": "https://shield.ai/careers/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
     }
   ],
-  "post_count": 41,
-  "fetched": "2026-08-30T22:33:40Z",
+  "post_count": 44,
+  "fetched": "2026-09-06T19:17:18Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
