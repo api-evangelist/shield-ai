@@ -23,8 +23,8 @@
       "method": "discovered"
     },
     {
-      "source": "https://shield.ai/hivemind/blog/feed/",
-      "feed_url": "https://shield.ai/hivemind/blog/feed/",
+      "source": "https://shield.ai/blog/feed/",
+      "feed_url": "https://shield.ai/blog/feed/",
       "title": "",
       "saved": 0,
       "method": "feed"
@@ -32,6 +32,20 @@
     {
       "source": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/blog/feed/",
       "feed_url": "https://shield.ai/hivemind-edgeos-a-game-changer-for-autonomous-robotics/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://shield.ai/from-concept-to-combat-how-hivemind-sdk-powers-next-gen-autonomy/blog/feed/",
+      "feed_url": "https://shield.ai/from-concept-to-combat-how-hivemind-sdk-powers-next-gen-autonomy/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://shield.ai/hivemind/blog/feed/",
+      "feed_url": "https://shield.ai/hivemind/blog/feed/",
       "title": "",
       "saved": 0,
       "method": "feed"
@@ -72,8 +86,8 @@
       "method": "feed"
     }
   ],
-  "post_count": 54,
-  "fetched": "2026-10-10T13:15:00Z",
+  "post_count": 58,
+  "fetched": "2026-10-17T14:53:57Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
