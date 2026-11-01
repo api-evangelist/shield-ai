@@ -1,4 +1,4 @@
-# shield-ai
+# Shield AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Shield AI — autonomous defense AI (Hivemind, V-BAT)
+Shield AI builds autonomous defense systems anchored by Hivemind, an AI-powered autonomy stack that pilots aircraft and robotic platforms without GPS or communications. Hardware products include the V-BAT vertical-takeoff ISR aircraft, the Nova quadcopter, and the announced X-BAT AI-piloted VTOL fighter. Hivemind itself is delivered as a layered platform: EdgeOS (real-time C++ autonomy middleware), Pilot (autonomy behavior catalog), Forge (autonomy factory for build, sim, and test), and Commander (C2 and fleet integration). In 2025 Shield AI introduced Hivemind Enterprise, a partner-facing SDK for building, evaluating, testing, and deploying mission autonomy on customer platforms. There is no public, self-service API; access to Hivemind SDKs and developer tooling is gated through partnership and is subject to U.S. export controls (ITAR/EAR).
+
+**Areas:** Defense · Autonomy · Hivemind · EdgeOS · Robotics · Unmanned Systems · Mission Software · Edge AI · V-BAT · ITAR · Swarming
+
+## Shield AI on APIs.io
+
+Everything profiled for Shield AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shield-ai/](https://apis.io/providers/shield-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Hivemind Enterprise SDK](https://apis.io/apis/shield-ai/hivemind-enterprise/) — Hivemind Enterprise is Shield AI's partner-facing autonomy SDK for developing, evaluating, testing, and deploying mission autonomy onto heterogeneous…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shield Ai Domain Security](https://apis.io/security/shield-ai/shield-ai-domain-security/)
+- [Shield Ai Vulnerability Disclosure](https://apis.io/security/shield-ai/shield-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shield Ai Plans Pricing](https://apis.io/plans/shield-ai/shield-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Shield Ai Rate Limits](https://apis.io/rate-limits/shield-ai/shield-ai-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Shield Ai Finops](https://apis.io/finops/shield-ai/shield-ai-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shield.ai/)
+- [Blog](https://shield.ai/blog/)
+
+## API Evangelist rating
+
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shield-ai/](https://apis.io/providers/shield-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Shield AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shield-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
